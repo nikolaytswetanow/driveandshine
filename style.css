@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+}
+
+.orange {
+    color: rgb(253, 200, 53);
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.swiper {
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 92vh;
+    z-index: 999;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+}
+
+.layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.layer button {
+    font-family: 'Source Sans Pro', arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 20px 30px;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.layer button:hover {
+    background-color: white;
+    color: black;
+}
+
+.about {
+    background-color: rgb(22, 22, 22);
+    padding: 55px 0 55px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cabin', Georgia, serif;
+    gap: 50px;
+}
+
+.card img {
+    width: 400px;
+    border-radius: 50%;
+    margin: 0;
+    vertical-align: middle;
+    aspect-ratio: 1 / 1;
+}
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.card h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: rgb(164, 164, 164);
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+}
+
+.about2 {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 50px 100px 0 100px;
+    font-family: 'Cabin', Georgia, serif
+}
+
+.about2-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(253, 200, 53);
+    font-family: 'Kaushan Script', sans-serif;
+}
+
+.test4e {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 50px;
+}
+
+.about2-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about2-item h1 {
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.about2-item h2 {
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+    padding: 5px;
+}
+
+/* .about2-item p {
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+    padding: 5px;
+} */
+
+.about2-item p {
+    width: 300px;
+    font-size: 16px;
+    color: rgb(164, 164, 164);
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.about2-item-inner {
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+}
+
+.about2-item-inner h2 {
+    font-size: 22px;
+}
+
+.about2-item .price {
+    font-size: 22px;
+}
+
+.about2 h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(253, 200, 53);
+    margin-bottom: 15px;
+}
+
+hr.solid {
+    margin: 50px auto;
+    border: 1px solid rgb(42, 42, 42);
+    width: 100%;
+}
+
+hr.solid2 {
+    margin: 0 auto;
+    border: 1px solid rgb(42, 42, 42);
+    width: 5%;
+    margin-top: 15px;
+}
+
+.about2-last {
+    padding: 50px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    color: rgb(253, 200, 53);
+}
+
+.appointments {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.appointments h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: 'Kaushan Script', sans-serif;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.appointments h2 {
+    font-size: 22px;
+    line-height: 1.25;
+    margin: 5px 0;
+    font-family: 'Cabin', Georgia, serif;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.appointments-inner2 {
+    padding: 25px;
+}
+
+.appointments-inner h3 {
+    font-family: 'Cabin', Georgia, serif;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.appointments-inner p {
+    font-family: 'Cabin', Georgia, serif;
+    font-size: 16px;
+    color: rgb(164, 164, 164);
+    text-align: center;
+}
+
+.appointments-inner2 table {
+    font-size: 16px;
+    word-break: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    font-family: Cabin, Georgia, serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(164, 164, 164);
+}
+
+.lp {
+    display: flex;
+    flex-direction: column;
+}
+
+.ph {
+    display: none;
+}
+
+/* responsive phone */
+@media only screen and (max-width: 767px) {
+    .lp {
+        display: none;
+    }
+
+    .ph {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 25px;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card img {
+        width: 300px;
+    }
+
+    .inner-card {
+        width: 350px;
+        margin-bottom: 25px;
+    }
+
+    .about2 {
+        padding: 15px;
+    }
+
+    .test4e {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about2-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about2-item-inner {
+        height: 250px;
+    }
+
+    .about2-item h1 {
+        text-align: center;
+    }
+
+    .about2-item h2 {
+        text-align: center;
+    }
+
+    .about2 h2 {
+        text-align: center;
+    }
+
+    .about2-item p {
+        margin: 0 auto;
+    }
+
+    .about2-item .price {
+        font-size: 22px;
+    }
+
+    .about2-last {
+        font-size: 20px;
+    }
+
+    .appointments h1 {
+        font-size: 26px;
+    }
+
+    .appointments h2 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .appointments-inner2 {
+        padding: 25px;
+    }
+
+    .appointments-inner h3 {
+        font-family: 'Cabin', Georgia, serif;
+        font-weight: 400;
+        overflow-wrap: break-word;
+        text-transform: none;
+        letter-spacing: normal;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .appointments-inner p {
+        font-family: 'Cabin', Georgia, serif;
+        font-size: 16px;
+        color: rgb(164, 164, 164);
+        text-align: center;
+    }
+
+    .appointments-inner2 table {
+        font-size: 16px;
+        word-break: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+        font-family: Cabin, Georgia, serif;
+        letter-spacing: normal;
+        text-align: left;
+        color: rgb(164, 164, 164);
+    }
+
+}
