@@ -293,6 +293,7 @@ hr.solid2 {
     font-size: 16px;
     color: rgb(164, 164, 164);
     text-align: center;
+    text-decoration: none;
 }
 
 .appointments-inner2 table {
