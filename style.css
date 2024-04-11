@@ -20,6 +20,10 @@
     color: rgb(253, 200, 53);
 }
 
+.test {
+    background-color: rgb(253, 200, 53);
+}
+
 .nav-title {
     display: flex;
     justify-content: center;
