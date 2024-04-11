@@ -3,16 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, telephone=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-face.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <title>Drive&Shine Studio</title>
 </head>
 
 
-<body class="test">
+<body>
 
     <div class="home">
         <nav class="bg-black">
@@ -22,7 +23,7 @@
         </nav>
 
         <div class="layer">
-            <button>- ЗАПОВЯДАЙТЕ, СЕГА -</button>
+            <a href="tel:+359886138486" target="">- ЗАПОВЯДАЙТЕ, СЕГА -</a>
         </div>
 
         <div class="swiper">
@@ -281,6 +282,9 @@
         </div>
     </div>
 
+    <div id="map" style='height: 300px;'>
+    </div>
+
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -298,7 +302,10 @@
     </script>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="scrollreveal.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
