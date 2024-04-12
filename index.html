@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, telephone=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-face.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -14,7 +15,7 @@
 </head>
 
 
-<body class="test">
+<body>
 
     <div class="home">
         <nav class="bg-black">
@@ -40,7 +41,7 @@
     <div class="about overflow">
 
         <div class="lp">
-            <div class="card left">
+            <div data-aos="fade-right" class="card">
                 <img src="1.jpg">
                 <div class="inner-card">
                     <h1>За да се чувствате като у дома си...</h1>
@@ -53,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="card right">
+            <div data-aos="fade-left" class="card">
                 <div class="inner-card">
                     <h1>За да бъдете забележителни, без значение от годините!</h1>
                     <p>За да се случи това, ние полагаме грижа и безкомпромисно качество, в почистване на двигателния
@@ -65,7 +66,7 @@
                 <img src="2.jpg">
             </div>
 
-            <div class="card left">
+            <div data-aos="fade-right" class="card">
                 <img src="3.jpg">
                 <div class="inner-card">
                     <h1>За да Ви е безопасно и лъскаво.</h1>
@@ -78,7 +79,7 @@
                 </div>
             </div>
 
-            <div class="card right">
+            <div data-aos="fade-left" class="card">
                 <div class="inner-card">
                     <h1>Защитата е необходимото зло...</h1>
                     <p>Доста хора избират да не поставят защитно покритие върху автомобила си, но по този начин оставят
@@ -91,7 +92,7 @@
         </div>
 
         <div class="ph">
-            <div class="card left">
+            <div data-aos="fade-right" class="card">
                 <img src="1.jpg">
                 <div class="inner-card">
                     <h1>За да се чувствате като у дома си...</h1>
@@ -104,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="card right">
+            <div data-aos="fade-left" class="card">
                 <img src="2.jpg">
                 <div class="inner-card">
                     <h1>За да бъдете забележителни, без значение от годините!</h1>
@@ -116,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="card left">
+            <div data-aos="fade-right" class="card">
                 <img src="3.jpg">
                 <div class="inner-card">
                     <h1>За да Ви е безопасно и лъскаво.</h1>
@@ -129,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="card right">
+            <div data-aos="fade-left" class="card">
                 <img src="4.jpg">
                 <div class="inner-card">
                     <h1>Защитата е необходимото зло...</h1>
@@ -144,11 +145,11 @@
     </div>
 
     <div class="about2 overflow">
-        <h1 class="about2-title top">Ценоразпис за предлаганите услуги
+        <h1 data-aos="fade-up" data-aos-duration="1200" class="about2-title">Ценоразпис за предлаганите услуги
             <hr class="solid2">
         </h1>
-        <h2 class="left">Лек автомобил</h2>
-        <div class="test4e left">
+        <h2 data-aos="fade-right">Лек автомобил</h2>
+        <div data-aos="fade-right" class="test4e">
             <div class="about2-item">
                 <div class="about2-item-inner">
                     <h1>1. Детайлно почистване на<br>интериор</h1>
@@ -189,8 +190,8 @@
 
         <hr class="solid">
 
-        <h2 class="right">Джип/Ван/Пикап/SUV</h1>
-            <div class="test4e right">
+        <h2 data-aos="fade-left">Джип/Ван/Пикап/SUV</h1>
+            <div data-aos="fade-left" class="test4e">
                 <div class="about2-item">
                     <div class="about2-item-inner">
                         <h1>1. Детайлно почистване на<br>интериор</h1>
@@ -231,14 +232,16 @@
                 </div>
             </div>
 
-            <p class="about2-last bot">За всеки направени 3 услуги, получавате 25% отстъпка за четвъртата.</p>
+            <p data-aos="fade-up" data-aos-duration="1200" class="about2-last">За всеки направени 3 услуги, получавате
+                25% отстъпка за четвъртата.</p>
     </div>
 
     <div class="appointments overflow">
-        <h1 class="bot">Запишете часа си сега. Възползвайте се от най-доброто утре!</h1>
-        <hr class="solid2 bot">
-        <h2 class="bot">Още по-добре, заповядайте на място!</h2>
-        <div class="appointments-inner bot">
+        <h1 data-aos="fade-up" data-aos-duration="1200">Запишете часа си сега. Възползвайте се от
+            най-доброто утре!</h1>
+        <hr data-aos="fade-up" data-aos-duration="1200" class="solid2">
+        <h2 data-aos="fade-up" data-aos-duration="1200">Още по-добре, заповядайте на място!</h2>
+        <div data-aos="fade-up" data-aos-duration="1200" class="appointments-inner">
             <div class="appointments-inner2">
                 <h3>Drive&Shine Studio</h3>
                 <p>Бул. Велики Преслав 17, Шумен 9701, Bulgaria</p>
@@ -246,12 +249,12 @@
             <p>Email: <span class="orange">driveandshinestudio@gmail.com</span></p>
             <p>Телефон: <span class="orange">+359 88 613 8486</span></p>
         </div>
-        <div class="appointments-inner bot">
+        <div data-aos="fade-up" data-aos-duration="1200" class="appointments-inner">
             <div class="appointments-inner2">
                 <h3>Работно време</h3>
                 <table>
                     <tr>
-                        <th>Пон</th>
+                        <th>Пн</th>
                         <td class="orange">09:00 - 17:00</td>
                     </tr>
                     <tr>
@@ -302,11 +305,14 @@
         });
     </script>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
