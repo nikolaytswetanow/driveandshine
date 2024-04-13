@@ -316,6 +316,20 @@ hr.solid2 {
     display: none;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-size: 24px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
 /* responsive phone */
 @media only screen and (max-width: 767px) {
     .lp {
