@@ -330,6 +330,15 @@ hr.solid2 {
     color: white;
 }
 
+.footer-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    padding: 50px;
+}
+
 /* responsive phone */
 @media only screen and (max-width: 767px) {
     .lp {
